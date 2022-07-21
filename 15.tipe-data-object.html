@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			const orang = {
+				nama: "Harry Antomy",
+				alamat: "Bukittinggi",
+				umur: 21,
+			};
+
+			//menambah dan mengubah
+			//orang["nama"] = "Harry Antomy";
+			//orang["alamat"] = "Bukittinggi";
+			//orang["umur"] = 21;
+
+			console.table(orang);
+
+			//menghapus data
+			delete orang["umur"];
+
+			console.table(orang);
+
+			console.info(`Nama : ${orang.nama}`);
+			console.info(`Alamat : ${orang.alamat}`);
+			console.info(`Umur : ${orang.umur}`);
+		</script>
+	</body>
+</html>
